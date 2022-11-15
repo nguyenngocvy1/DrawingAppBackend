@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 from scipy.spatial import cKDTree
 
+
 def detectArea(data):
     # =============== GET NODE COORDINATES AND SEGMENTS ============================
     raw_node_coords = data['node_coords']
