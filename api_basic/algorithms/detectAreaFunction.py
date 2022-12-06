@@ -64,7 +64,7 @@ def detectArea(data):
         #             surface_segments.append(j)
         #             break
     
-        if len(surface_nodes) >= 3:
+        if len(list(dict.fromkeys(surface_nodes))) >= 3:
             surfaces.append(surface_nodes)
             # surface_names.append(None)
         surface_nodes = []
